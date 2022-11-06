@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>HTML and Basic CSS</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Azhary Munir Abdillah" />
+    <meta name="topic" content="basic css" />
+    <meta name="subject" content="DDAP" />
+    <meta name="formatter" content="prettier" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Basic CSS</h1>
+      <p>
+        pada kesempatan ini, melihat bagaimana <i>CSS</i> memengaruhi style
+        halaman
+      </p>
+      <hr />
+    </header>
+
+    <main>
+      <section class="section-wrapper">
+        <h2>Font Styling</h2>
+        <div class="vertical-flex-wrapper">
+          <div class="horizontal-flex-wrapper">
+            <div class="ff card">
+              <h3>font-family</h3>
+              <hr />
+              <span>serif</span>
+              <span>sans-serif</span>
+              <span>'Segoe UI'</span>
+              <span>monospace</span>
+            </div>
+            <div class="fsz card">
+              <h3>font-size</h3>
+              <hr />
+              <span>h1 (56px)</span>
+              <span>h2 (48px)</span>
+              <span>large (18px)</span>
+              <span>paragraph (16px)</span>
+            </div>
+            <div class="fw card">
+              <h3>font-weight</h3>
+              <hr />
+              <span>100</span>
+              <span>200</span>
+              <span>300</span>
+              <span>400</span>
+              <span>500</span>
+              <span>600</span>
+              <span>700</span>
+              <span>800</span>
+              <span>900</span>
+            </div>
+          </div>
+          <div class="horizontal-flex-wrapper">
+            <div class="fv card">
+              <h3>font-variant</h3>
+              <hr />
+              <span>normal</span>
+              <span>small-caps</span>
+              <span>initial</span>
+              <span>inherit</span>
+            </div>
+            <div class="fs card">
+              <h3>font-style</h3>
+              <hr />
+              <span>normal</span>
+              <span>italic</span>
+              <span>oblique</span>
+            </div>
+            <div class="lh card">
+              <h3>line-height</h3>
+              <hr />
+              <ul>
+                <li>
+                  <p>
+                    Ini adalah contoh line height secara <i>default</i><br />
+                    jarak antar baris terkesan normal
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Ini adalah contoh line height 200%<br />
+                    jarak antar baris terlihat lebih besar
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Ini adalah contoh line height 3rem<br />
+                    jarak antar baris terlihat jauh lebih besar
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-wrapper">
+        <h2>Text Styling</h2>
+        <div class="vertical-flex-wrapper">
+          <div class="horizontal-flex-wrapper">
+            <div class="c card">
+              <h3>color</h3>
+              <hr />
+              <span>red</span>
+              <span>green</span>
+              <span>blue</span>
+              <span>aquamarine</span>
+              <span>violet</span>
+            </div>
+            <div class="card">
+              <h3>text-align</h3>
+              <hr />
+              <div id="p-wrapper">
+                <p>start</p>
+                <p>end</p>
+                <p>left</p>
+                <p>right</p>
+                <p>
+                  justify (ratakan semua tulisan dari sisi kiri hingga sisi
+                  kanan)
+                </p>
+              </div>
+            </div>
+            <div class="ti card">
+              <h3>text-indent</h3>
+              <hr />
+              <div id="p2-wrapper">
+                <p>
+                  text indent sebesar 20% akan membuat teks menjorok seperti ini
+                </p>
+                <p>
+                  semakin besar presentase (30%), maka semakin lebar jaraknya
+                </p>
+                <p>
+                  menggunakan satuan rem mungkin lebih nyaman digukanan karena
+                  lebih terukur
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <h3>text-decoration</h3>
+              <hr />
+              <span id="overline">decoration-line: overline</span>
+              <span id="underline">decoration-line: underline</span>
+              <span id="underline-magenta">underline color is magenta</span>
+              <span id="underline-wavy-coral"
+                >underline color is wavy and coral</span
+              >
+            </div>
+          </div>
+          <div class="horizontal-flex-wrapper">
+            <div class="card">
+              <h3>text-transform</h3>
+              <hr />
+              <p>capitalize → <span id="capitalize">capitalize</span></p>
+              <p>uppercase → <span id="uppercase">uppercase</span></p>
+              <p>LoWerCasE → <span id="lowercase">LoWerCasE</span></p>
+            </div>
+            <div class="ls card">
+              <h3>letter-spacing</h3>
+              <hr />
+              <p>letter spacing -1px</p>
+              <p>letter spacing 1px</p>
+              <p>letter spacing 3px</p>
+              <p>letter spacing 5px</p>
+              <p>letter spacing 0.5rem</p>
+            </div>
+            <div class="ws card">
+              <h3>word-spacing</h3>
+              <hr />
+              <p>word spacing -1rem</p>
+              <p>word spacing 1px</p>
+              <p>word spacing 3px</p>
+              <p>word spacing 5px</p>
+              <p>word spacing 3rem</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

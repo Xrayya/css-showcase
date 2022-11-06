@@ -1,0 +1,318 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #e2e2e2;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+main {
+  margin-top: 80px;
+  padding: 0px 64px;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+h2 {
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.section-wrapper {
+  margin: 16px;
+}
+
+.vertical-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.horizontal-flex-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.card {
+  border: 3px solid grey;
+  border-radius: 10px;
+  width: 500px;
+
+  padding: 4px 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.ff span:nth-child(3) {
+  font-family: serif;
+}
+
+.ff span:nth-child(4) {
+  font-family: sans-serif;
+}
+
+.ff span:nth-child(5) {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ff span:nth-child(6) {
+  font-family: monospace;
+}
+
+.fsz span:nth-child(3) {
+  font-size: 56px;
+}
+
+.fsz span:nth-child(4) {
+  font-size: 48px;
+}
+
+.fsz span:nth-child(5) {
+  font-size: 18px;
+}
+
+.fsz span:nth-child(6) {
+  font-size: 16px;
+}
+
+.fw span:nth-child(3) {
+  font-weight: 100;
+}
+
+.fw span:nth-child(4) {
+  font-weight: 200;
+}
+
+.fw span:nth-child(5) {
+  font-weight: 300;
+}
+
+.fw span:nth-child(6) {
+  font-weight: 400;
+}
+
+.fw span:nth-child(7) {
+  font-weight: 500;
+}
+
+.fw span:nth-child(8) {
+  font-weight: 600;
+}
+
+.fw span:nth-child(9) {
+  font-weight: 700;
+}
+
+.fw span:nth-child(10) {
+  font-weight: 800;
+}
+
+.fw span:nth-child(11) {
+  font-weight: 900;
+}
+
+.fv span:nth-child(3) {
+  font-variant: normal;
+}
+
+.fv span:nth-child(4) {
+  font-variant: small-caps;
+}
+
+.fv span:nth-child(5) {
+  font-variant: initial;
+}
+
+.fv span:nth-child(6) {
+  font-variant: inherit;
+}
+
+.fs span:nth-child(3) {
+  font-style: normal;
+}
+
+.fs span:nth-child(4) {
+  font-style: italic;
+}
+
+.fs span:nth-child(5) {
+  font-style: oblique;
+}
+
+.lh > ul > li:nth-child(2) > p {
+  line-height: 200%;
+}
+
+.lh > ul > li:nth-child(3) > p {
+  line-height: 3rem;
+}
+
+.c span:nth-child(3) {
+  color: red;
+}
+
+.c span:nth-child(4) {
+  color: green;
+}
+
+.c span:nth-child(5) {
+  color: blue;
+}
+
+.c span:nth-child(6) {
+  color: aquamarine;
+}
+.c span:nth-child(7) {
+  color: violet;
+}
+
+#p-wrapper {
+  width: 100%;
+}
+
+#p-wrapper > p:nth-child(1) {
+  text-align: start;
+}
+
+#p-wrapper > p:nth-child(2) {
+  text-align: end;
+}
+
+#p-wrapper > p:nth-child(3) {
+  text-align: left;
+}
+
+#p-wrapper > p:nth-child(4) {
+  text-align: right;
+}
+
+#p-wrapper > p:nth-child(5) {
+  text-align: justify;
+}
+
+#p2-wrapper > p {
+  text-align: justify;
+}
+
+#p2-wrapper > p:nth-child(1) {
+  text-indent: 20%;
+}
+
+#p2-wrapper > p:nth-child(2) {
+  text-indent: 30%;
+}
+
+#p2-wrapper > p:nth-child(3) {
+  text-indent: 2rem;
+}
+
+#p2-wrapper > p:nth-child(4) {
+  text-align: right;
+}
+
+#p2-wrapper > p:nth-child(5) {
+  text-align: justify;
+}
+
+#overline {
+  text-decoration-line: overline;
+}
+
+#underline {
+  text-decoration-line: underline;
+}
+
+#underline-magenta {
+  text-decoration-line: underline;
+  text-decoration-color: magenta;
+}
+
+#underline-wavy-coral {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: coral;
+}
+
+#capitalize {
+  text-transform: capitalize;
+}
+
+#uppercase {
+  text-transform: uppercase;
+}
+
+#lowercase {
+  text-transform: lowercase;
+}
+
+.ls p:nth-child(3) {
+  letter-spacing: -1px;
+}
+
+.ls p:nth-child(4) {
+  letter-spacing: 1px;
+}
+
+.ls p:nth-child(5) {
+  letter-spacing: 3px;
+}
+
+.ls p:nth-child(6) {
+  letter-spacing: 5px;
+}
+
+.ls p:nth-child(7) {
+  letter-spacing: 0.5rem;
+}
+
+.ws p:nth-child(3) {
+  word-spacing: -1rem;
+}
+
+.ws p:nth-child(4) {
+  word-spacing: 1px;
+}
+
+.ws p:nth-child(5) {
+  word-spacing: 3px;
+}
+
+.ws p:nth-child(6) {
+  word-spacing: 5px;
+}
+
+.ws p:nth-child(7) {
+  word-spacing: 3rem;
+}
